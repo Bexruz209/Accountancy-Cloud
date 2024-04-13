@@ -17,6 +17,10 @@
     margin: auto;
 }
 
+.frame {
+    margin-bottom: 100px;
+}
+
 
 .frame_menu {
     margin-top: 30px;
@@ -160,6 +164,28 @@
     color: #000000;
 }
 
+.play_smoll {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.play_h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    color: #000000;
+}
+
+.play_p {
+    padding-top: 30px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
 
 
 
@@ -205,6 +231,30 @@
 
     .frama_h1 {
         font-size: 30px;
+        line-height: 30px;
+    }
+
+    .play_left {
+        text-align: center;
+    }
+
+    .play__img {
+        width: 370px;
+        height: 300px;
+    }
+
+    .play_right {
+        text-align: center;
+    }
+
+    .play_h1 {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    .play_p {
+        padding-top: 30px;
+        font-size: 24px;
         line-height: 30px;
     }
 }
