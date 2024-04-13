@@ -111,12 +111,6 @@
     margin-top: 110px;
 }
 
-.frama_right {
-    display: flex;
-    justify-content: end;
-    align-items: start;
-}
-
 
 .frama_h1 {
     font-family: var(--font-family);
@@ -177,6 +171,7 @@
 
 @media(max-width:575px) {
     .frame__menu {
+        width: auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -187,13 +182,29 @@
         height: 100px;
     }
 
-    .frama_right{
+    .frama_right {
         text-align: center;
-
     }
 
-    .frama_img{
-        width: auto;
-        height: 400px;
+    .frama__p {
+        text-align: center;
+    }
+
+    .frama_button {
+        text-align: center;
+    }
+
+    .frama_img {
+        width: 370px;
+        height: 300px;
+    }
+
+    .frama_smoll_left {
+        text-align: center;
+    }
+
+    .frama_h1 {
+        font-size: 30px;
+        line-height: 30px;
     }
 }
