@@ -353,6 +353,7 @@
 
 .sunny_smoll {
     margin-top: 200px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -404,6 +405,69 @@
     background: #8BD4D6;
     color: #000000;
     border: 1px solid #000000;
+}
+
+.pot_smoll {
+    background: #302E3F;
+    padding-bottom: 30px;
+}
+
+.pot_smoll_top_img {
+    display: flex;
+    gap: 15px;
+    padding-top: 50px;
+    margin-left: 100px;
+}
+
+.pot_smoll_top_h1 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #ffff;
+}
+
+.pot__botton {
+    padding-left: 100px;
+    padding-top: 50px;
+    display: flex;
+    gap: 40px;
+}
+
+.pot_left_h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffff;
+}
+
+.pot_left_p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.2px;
+    color: #C5E9EA;
+    cursor: pointer;
+}
+
+.pot_righ {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.pot_smoll_botton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.pot_smoll_button {
+    display: flex;
+    gap: 15px;
 }
 
 
@@ -549,5 +613,19 @@
         background: #8BD4D6;
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+
+    .pot_smoll_top_img {
+        margin-left: 10px;
+    }
+
+    .pot__left {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .pot_smoll_button {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
