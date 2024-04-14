@@ -547,5 +547,7 @@
         text-align: center;
         border-radius: 10px;
         background: #8BD4D6;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
