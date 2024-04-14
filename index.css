@@ -248,6 +248,49 @@
     border: 1px solid #F7B2B7;
 }
 
+.desktop_smoll{
+    background: #FDECED;
+    padding-bottom: 50px;
+}
+
+.desktop_top_text{
+    padding-top: 80px;
+    padding-left: 100px;
+    margin-bottom: 80px;
+}
+
+.desktop_top_h1{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+}
+
+.desktop_left{
+    padding-left: 100px;
+}
+
+.desktop_smoll_h1{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.desktop_smoll_p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.desktop_medium{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
 
 
 
@@ -314,10 +357,17 @@
         line-height: 30px;
     }
 
+    .frama_text__p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .play_p {
         padding-top: 30px;
         font-size: 24px;
         line-height: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .emmer_top {
